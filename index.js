@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const os = require('os');
 const si = require('systeminformation');
-const port = 3000
+const port = 80
 
 const server = app.listen(port, function() {
     console.log(`API is now running on port ${port}`);
